@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   css: ['~/css/style.css',]  ,
   vite: false,
-  target: static,
   pages : true,
   devtools: { enabled: true},
   app: {
