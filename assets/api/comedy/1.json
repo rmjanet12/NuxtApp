@@ -1,0 +1,11 @@
+[{
+    "name": "High School Threatre",
+    "url": "/images/2.jpg",
+    "city": "Seattle",
+    "open": false
+  }, {
+    "name": "College Theater",
+    "url": "/images/5.jpg",
+    "city": "Taccoma",
+    "open": false
+  }]
