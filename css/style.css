@@ -4,6 +4,10 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+
+ /* @use base;
+ @use container; */
+
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -1021,6 +1025,7 @@ footer .footer-text {
   grid-template-areas: "header-main header-main header-main header-main header-main" "nav-bar nav-bar nav-bar nav-bar nav-bar" "side-bar side-bar main-content main-content main-content" "footer footer footer footer footer";
   gap: 10px;
   padding: 10px;
+  text-align: center;
 }
 
 .header-grid {
@@ -1030,6 +1035,7 @@ footer .footer-text {
   grid-template-areas: "header-left header-left header-right" "header-left header-left header-right";
   gap: 10px;
   padding: 10px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
